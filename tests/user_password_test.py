@@ -5,5 +5,4 @@ from datetime import datetime
 from src.location import Location
 
 def test_is_password_valid():
-    # ERRORS BECAUSE REGEX WANTS IT TO START W/ UPPERCASE, EVEN THOUGH NOT REQUIREMENT
     assert UserProfile.valid_password("andrewGBamm2024!") == True
